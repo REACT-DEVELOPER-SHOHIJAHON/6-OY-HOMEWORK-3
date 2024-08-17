@@ -1,0 +1,22 @@
+.menu-section__title {
+    font-family: "Outfit";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50.4px;
+    text-align: center;
+    color: #241415;
+}
+.menu-section__subtitle {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #7C7272;
+    padding: 16px 0px 50px 0px;
+}
+.menu-section__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}

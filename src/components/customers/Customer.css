@@ -1,0 +1,23 @@
+.customer-section{
+    background-color: #FEF6F6;
+}
+.customer-section__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.customer-section__header-title{
+    max-width: 400px;
+    font-family: "Outfit";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50.4px;
+    color: #241415;
+}
+.customer-section__commits{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 50px;
+    gap: 0px 30px;
+}

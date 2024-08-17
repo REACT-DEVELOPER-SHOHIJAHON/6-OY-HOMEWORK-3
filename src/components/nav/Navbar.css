@@ -1,0 +1,42 @@
+.navbar__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 0px;
+}
+.navbar__list {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+.navbar__list a {
+    color: #241415;
+    font-family: "Outfit";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    display: flex;
+    align-items: center;
+    gap: 0px 5px;
+}
+.navbar__action {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+.navbar__login-button {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    padding: 16px 27.5px;
+    border-radius: 20px;
+    background-color: #F54749;
+    outline: none;
+    border: none;
+    font-family: "Outfit";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    color: white;
+    cursor: pointer;
+}

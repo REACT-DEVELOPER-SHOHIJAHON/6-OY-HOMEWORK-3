@@ -1,0 +1,33 @@
+.promotion-section {
+    padding: 100px 0px;
+}
+
+.promotion-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promotion-title {
+    font-family: "Outfit";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50.4px;
+    color: #241415;
+}
+
+.promotion-text {
+    max-width: 473px;
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #7C7272;
+    padding: 16px 0px 50px 0px;
+}
+
+.promotion-links {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}

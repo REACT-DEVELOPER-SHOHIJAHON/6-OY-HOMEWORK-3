@@ -1,0 +1,70 @@
+.hero-section__container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 95px 150px 150px;
+}
+.hero-section__wrapper {
+    display: flex;
+    gap: 0 26px;
+}
+.hero-section__content {
+    height: 699px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.hero-section__media {
+    display: flex;
+    align-items: flex-end;
+}
+.hero-section__title {
+    font-family: "Outfit";
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 100.8px;
+    color: #141123;
+    max-width: 459px;
+}
+.hero-section__title-highlight {
+    color: #F54749;
+}
+.hero-section__text {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #7C7272;
+    margin: 25px 0px 50px 0px;
+}
+.hero-section__actions {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+.hero-section__button {
+    font-family: "Outfit";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    color: white;
+    background-color: #F54749;
+    padding: 20px 57px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: #f5474a64 0px 8px 24px;
+}
+.hero-section__play-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hero-section__play-text {
+    font-family: "Outfit";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #241415;
+}

@@ -1,0 +1,41 @@
+
+.customer__card{
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+    height: 300px;
+    position: relative;
+}
+.customer__commit{
+    font-family: "Outfit";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #241415;
+    padding-top: 26px;
+}
+.customer__info-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    z-index: 3;
+    left: 30px;
+    bottom: 30px;
+}
+.customer__fullName{
+    font-family: "Outfit";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #241415;
+}
+.customer__job{
+    font-family: "Outfit";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #7c7272;
+}
